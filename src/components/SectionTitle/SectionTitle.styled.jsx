@@ -7,6 +7,7 @@ export const Section = styled.section`
   padding: 8px;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: DarkSlateBlue;
 `;
 
 export const Title = styled.h2`

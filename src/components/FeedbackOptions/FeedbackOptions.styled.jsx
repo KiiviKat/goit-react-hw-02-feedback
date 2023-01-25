@@ -8,11 +8,12 @@ export const OptionContainer = styled.div`
 `;
 
 export const OptionButton = styled.button`
+  color: inherit;
   width: 100px;
   padding: 8px;
   font-size: 20px;
   text-transform: capitalize;
-  border: 2px solid RebeccaPurple;
+  border: 2px solid DarkSlateBlue;
   border-radius: 4px;
   background-color: Plum;
   cursor: pointer;
@@ -20,7 +21,7 @@ export const OptionButton = styled.button`
   &:hover,
   &:focus,
   &:active {
-    background-color: RebeccaPurple;
+    background-color: DarkSlateBlue;
     color: white;
   }
 `;
